@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.google.guava:guava:19.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+
+    ext {
+        compileSdk  = 25
+        buildTools = "25.0.1"
+        minSdk = 21
+        targetSdk = 24
+        sourceCompat = JavaVersion.VERSION_1_8
+        targetCompat = JavaVersion.VERSION_1_8
+        rxJava = '2.0.6'
+        supportSDK = '25.0.1'
+        AAVersion = '4.1.0'
+        daggerVersion = '2.7'
+        guava = '19.0'
+        retrofitVersion = '2.1.0'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

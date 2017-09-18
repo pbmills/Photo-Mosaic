@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Canva Mosaic</string>
+    <string name="storage_access">Storage access needed</string>
+    <string name="could_not_load_photo">Could not load photo</string>
+    <string name="could_not_generate_mosaic">Could not generate mosaic</string>
+    <string name="not_valid_ip_address">Not a valid IP address</string>
+    <string name="host_ip_address">Host IP address</string>
+    <string name="default_port">Default port is 8765</string>
+    <string name="gesture_tip">Pinch to zoom, pan to move</string>
+    <string name="change_server">Change server</string>
+    <string name="could_not_save_photo">Could not save photo</string>
+    <string name="photo_saved">Photo saved to CanvaApp folder</string>
+    <string name="share">Share</string>
+</resources>
